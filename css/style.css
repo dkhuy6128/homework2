@@ -1,0 +1,53 @@
+
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+
+/* Navigation */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+}
+
+/* Comment out the original li styling */
+/*
+li {
+  ...
+}
+*/
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* Flexbox layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex img {
+  width: 300px;
+  margin: 10px;
+}
+
+/* Skip to Main Content */
+a:focus {
+  outline: 3px solid #000;
+}
